@@ -16,6 +16,7 @@ public class Main {
         int iloraz=a1/a2;
 
         System.out.println("Hello World!");
+        System.out.println("Hello World!");
         System.out.println(b);
         System.out.println(c);
         System.out.println(i);
