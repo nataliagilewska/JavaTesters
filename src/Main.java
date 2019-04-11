@@ -41,6 +41,10 @@ public class Main {
         System.out.println(18+" celsjuszy to "+celsjusz.celsjuszeNaFahrenheity()+" Fahrenheitow");
         Fahrenheit fahrenheit = new Fahrenheit (20);
         System.out.println(20+" fahrenheitow to "+fahrenheit.fahrenheityNaCelsjusze()+" Celsjuszy");
+        //ZAD4
+        SumaCyfr liczba = new SumaCyfr(1234);
+        System.out.println("Suma cyfr w liczbie 1234 to "+liczba.Oblicz());
+
 
 
 
