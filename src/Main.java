@@ -31,15 +31,16 @@ public class Main {
         System.out.println("dzielenie: "+iloraz);
         System.out.println("reszta z dzielenia: "+modulo);
         //cz.1 ZAD 3
-        double Celsjusz=20;
+        /*double Celsjusz=20;
         double Fahrenheit;
         Fahrenheit=1.8*Celsjusz+32;
         System.out.println(Celsjusz+" stopni Celsjusza to "+Fahrenheit+" stopni Fahrenheita");
         Celsjusz=(Fahrenheit-32)/1.8;
-        System.out.println(Fahrenheit+" stopni Fahrenheita to "+Celsjusz+" stopni Celsjusza");
+        System.out.println(Fahrenheit+" stopni Fahrenheita to "+Celsjusz+" stopni Celsjusza");*/
         Celsjusz celsjusz = new Celsjusz(18);
         System.out.println(18+" celsjuszy to "+celsjusz.celsjuszeNaFahrenheity()+" Fahrenheitow");
-
+        Fahrenheit fahrenheit = new Fahrenheit (20);
+        System.out.println(20+" fahrenheitow to "+fahrenheit.fahrenheityNaCelsjusze()+" Celsjuszy");
 
 
 
