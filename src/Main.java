@@ -14,9 +14,9 @@ public class Main {
         int roznica = a1-a2;
         int iloczyn = a1*a2;
         int iloraz=a1/a2;
+        int modulo =a1%a2;
 
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
+        //cz.1 ZAD 1
         System.out.println(b);
         System.out.println(c);
         System.out.println(i);
@@ -24,10 +24,12 @@ public class Main {
         System.out.println(f);
         System.out.println(d);
         System.out.println(s);
+        //cz.1 ZAD 2
         System.out.println("dodawanie: "+suma);
         System.out.println("odejmowanie: "+roznica);
         System.out.println("mnozenie: "+iloczyn);
         System.out.println("dzielenie: "+iloraz);
+        System.out.println("reszta z dzielenia: "+modulo);
 
     }
 }
