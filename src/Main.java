@@ -85,5 +85,11 @@ public class Main {
         DzienTygodnia numer=new DzienTygodnia(2);
         System.out.println(numer.zwroc());
 
+        //cz.2 ZAD 4
+        Kalkulator kalk=new Kalkulator(17,18,'+');
+        System.out.println("Wynik działania: "+kalk.policz());
+
+
+
     }
 }
