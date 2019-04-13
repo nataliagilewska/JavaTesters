@@ -59,5 +59,23 @@ public class Main {
         z5=java.lang.Math.min(z5,z3);
         System.out.println("Min to: "+z5);
 
+        //cz.2 zad. 2
+        double bmi;
+        double waga=60;
+        double wzrost =1.75;
+        bmi=waga/(wzrost*wzrost);
+        System.out.println("Bmi: "+bmi);
+        if ((bmi>=18.5)&&(bmi<=24.9))
+        {
+            System.out.println("Waga prawidłowa");
+        }
+        else if (bmi<18.5)
+        {
+            System.out.println("Niedowaga");
+        }
+        else
+        {  System.out.println("Nadwaga");}
+
+
     }
 }
