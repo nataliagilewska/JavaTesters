@@ -76,6 +76,14 @@ public class Main {
         else
         {  System.out.println("Nadwaga");}
 
+        //cz.2 ZAD 3
+        /*3. Napisz program, który za pomocą konstrukcji switch sprawdza, jaki jest dzień tygodnia
+ (dzień tygodnia deklarujemy jako zmienną int, 1-poniedzialek itd.). Jeżeli liczba jest spoza zakresu, program powinien zwrócić błąd.
+4. Zadeklaruj trzy zmienne, dwie liczbowe oraz jedną znakową (char), a następnie przy pomocy switcha napisz prosty kalkulator
+(char to symbol działania: +, -, itd.).
+*/
+        DzienTygodnia numer=new DzienTygodnia(2);
+        System.out.println(numer.zwroc());
 
     }
 }
