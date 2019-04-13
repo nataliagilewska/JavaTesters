@@ -1,3 +1,5 @@
+import java.math.MathContext;
+import java.math.*;
 public class Main {
 
     public static void main(String[] args) {
@@ -45,8 +47,17 @@ public class Main {
         SumaCyfr liczba = new SumaCyfr(1234);
         System.out.println("Suma cyfr w liczbie 1234 to "+liczba.Oblicz());
 
-
-
+        //cz.2 zad. 1
+        int z1=1;
+        int z2=2;
+        int z3=3;
+        int z[]={1,2,3};
+        int z4=java.lang.Math.max(z1,z2);
+        z4=java.lang.Math.max(z4,z3);
+        System.out.println("Max to: "+z4);
+        int z5=java.lang.Math.min(z1,z2);
+        z5=java.lang.Math.min(z5,z3);
+        System.out.println("Min to: "+z5);
 
     }
 }
